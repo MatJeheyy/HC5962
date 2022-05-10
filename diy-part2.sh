@@ -13,8 +13,7 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
-# libernet
-git clone https://github.com/helmiau/helmiwrt-packages.git package/new/libernet
+
 
 # kengzo
 git clone https://github.com/kenzok8/openwrt-packages package/new/kengzo
@@ -28,3 +27,6 @@ git clone https://github.com/MatJehey/autocore-arm-x86.git package/new/luci-app-
 
 # Bypass
 git clone https://github.com/kiddin9/openwrt-bypass.git package/new/luci-app-bypass
+
+# modem
+git clone https://github.com/4IceG/luci-app-3ginfo-lite.git package/new/luci-app-3ginfo-lite
